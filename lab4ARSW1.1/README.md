@@ -14,7 +14,7 @@ Para ilustrar el uso del framework Spring, y el ambiente de desarrollo para el u
 
 2. Revise el archivo de configuración de Spring ya incluido en el proyecto (src/main/resources). El mismo indica que Spring buscará automáticamente los 'Beans' disponibles en el paquete indicado.
 
-[applicationContext.xml](applicationContext.xml)
+	[applicationContext.xml](./src/main/resources/applicationContext.xml)
 
 3. Haciendo uso de la [configuración de Spring basada en anotaciones](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-spring-beans-and-dependency-injection.html) marque con las anotaciones @Autowired y @Service las dependencias que deben inyectarse, y los 'beans' candidatos a ser inyectadas -respectivamente-:
 
