@@ -14,11 +14,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author hcadavid
  */
 public class Main {
-
-    public static void main(String a[]) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        GrammarChecker gc = ac.getBean(GrammarChecker.class);
-        System.out.println(gc.check("la la la "));
-    }
+    public static void main(String[] args) {
+	ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
+	GrammarChecker gc=ac.getBean(GrammarChecker.class);
+	System.out.println(gc.check("la la la "));
+}
 
 }
