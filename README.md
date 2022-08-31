@@ -5,5 +5,5 @@
 
 ## Laboratorio 4
 
-[Antes de la Parte 1](lab4ARSW1.1)
-[Parte 1](lab4ARSW1)
+- [Antes de la Parte 1](lab4ARSW1.1)
+- [Parte 1](lab4ARSW1)
