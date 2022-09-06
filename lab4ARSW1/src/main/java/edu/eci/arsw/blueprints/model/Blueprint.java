@@ -15,20 +15,33 @@ public class Blueprint {
     
     private String name=null;
             
+    /**
+     * Constructor de la clase
+     * @param author
+     * @param name
+     * @param pnts
+     */
     public Blueprint(String author,String name,Point[] pnts){
         this.author=author;
         this.name=name;
         points=Arrays.asList(pnts);
     }
          
+    /**
+     * Constructor de la clase sin recibir el arreglo de puntos
+     * @param author
+     * @param name
+     */
     public Blueprint(String author, String name){
         this.name=name;
+        this.author=author;
         points=new ArrayList<>();
     }
 
     public Blueprint() {
     }    
     
+
     public String getName() {
         return name;
     }
@@ -39,6 +52,10 @@ public class Blueprint {
     
     public List<Point> getPoints() {
         return points;
+    }
+
+    public void setPoints(List<Point> points) {
+        this.points = points;
     }
     
     public void addPoint(Point p){
