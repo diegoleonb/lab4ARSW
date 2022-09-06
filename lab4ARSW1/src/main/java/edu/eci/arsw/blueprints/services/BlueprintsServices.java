@@ -50,20 +50,20 @@ public class BlueprintsServices {
     }
     
     /**
-     * 
-     * @param author blueprint's author
-     * @param name blueprint's name
-     * @return the blueprint of the given name created by the given author
-     * @throws BlueprintNotFoundException if there is no such blueprint
+     * the blueprint of the given name created by the given author
+     * @param author 
+     * @param name 
+     * @return 
+     * @throws BlueprintNotFoundException 
      */
     public Blueprint getBlueprint(String author,String name) throws BlueprintNotFoundException {
         return bpp.getBlueprint(author, name);
     }
     /**
-     * 
-     * @param author blueprint's author
-     * @return all the blueprints of the given author
-     * @throws BlueprintNotFoundException if the given author doesn't exist
+     * all the blueprints of the given author
+     * @param author 
+     * @return 
+     * @throws BlueprintNotFoundException 
      */
     public Set<Blueprint> getBlueprintsByAuthor(String author) throws BlueprintNotFoundException, BlueprintPersistenceException{
         return bpp.getBlueprintsByAuthor(author);
