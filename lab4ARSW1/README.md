@@ -78,4 +78,5 @@ Filtrado de submuestreo: El siguiente es el método más importante de la clase 
 ![](img/media/Capture13.PNG)
 
 5. Agrege las pruebas correspondientes a cada uno de estos filtros, y pruebe su funcionamiento en el programa de prueba, comprobando que sólo cambiando la posición de las anotaciones -sin cambiar nada más-, el programa retorne los planos filtrados de la manera (A) o de la manera (B). 
+
 ![](img/media/Capture14.PNG)
