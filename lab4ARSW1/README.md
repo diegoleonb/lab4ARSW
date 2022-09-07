@@ -50,6 +50,7 @@ En este método se compara si el autor buscado esta en el arreglo de Blueprints 
 ![](img/media/Capture6.PNG)
 
 Se agregan varios Blueprints con el mismo autor a la memoria de Blueprints, luego se verifica que la lista de Blueprints con este autor sea igual al número creado para la prueba.
+
 ![](img/media/Capture7.PNG)
 
 3. Haga un programa en el que cree (mediante Spring) una instancia de BlueprintServices, y rectifique la funcionalidad del mismo: registrar planos, consultar planos, registrar planos específicos, etc.
